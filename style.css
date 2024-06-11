@@ -28,6 +28,7 @@ body {
     border-radius: 5px;
 }
 .container .content .txt {
+    width: 100%;
     text-align: center;
     color: white;
 }
@@ -55,3 +56,31 @@ body {
     background-color: green;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 427px) {
+    .container{
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .container .content {
+        width: 80%;
+        height: 100%;
+
+    }
+    .container .content .txt {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+   .container .content form {
+      width: 100%;
+      height: auto;
+      margin: 2px;
+   }  
+
+}
+
+
+    
+    
