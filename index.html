@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+           <div class="txt">
+            <h1>CapacityBay Survey Form</h1>
+            <p>Thank you for taking out time to help us inprove the platform</p>
+            <form action="" method="post">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" placeholder="Enter your name"> <br>
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="" placeholder="Email"> <br>
+                <label for="age">Age (Option)</label><br>
+                <input type="text" name="age" placeholder="Age"><br> <br>
+
+                <label for="option">Which option best describe your current role</label><br>
+                <select name="option" id="">
+                    <option value="1" checked="checked">--select you current role--</option>
+                    <option value="">Student</option>
+                    <option value="">Full time jobs</option>
+                    <option value="">Full time Learner</option>
+                    <option value="">Preffer not to say</option>
+                    <option value="">Other</option>
+                </select> 
+
+               <br> <br>
+
+                <div class="radio">
+                <label for="">would you recommend CapacityBay to a friend</label> <br>
+                <input type="radio" name="radio" id="">
+                <label for="radio">Definitely</label><br>
+                <input type="radio" name="radio" id="">
+                <label for="radio">Maybe</label> <br>
+                <input type="radio" name="radio" id="">
+                <label for="radio">Not sure</label>
+                </div>
+                <br>
+                <div class="select">
+                    <label for="option">What is your fovourite of CapacityBay</label> <br>
+                    <select name="select" id="">
+                        <option value=""name="select" checked="checked">--select options--</option>
+                        <option value=""name="select">Project</option>
+                        <option value=""name="select">Communities</option>
+                        <option value=""name="select">Open source</option>
+                    </select>
+                </div>
+                <br>
+                <div class="check">
+                    <label for="">What would you like to see improved (check of that apply)</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">Front-end Projects</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">Back-end Projects</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front"> Data visualizatio</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">Challanges</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">Open source community</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">Gitter help rooms</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">videos</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">City meetups</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">Wiki</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">Forum</label> <br>
+                    <input type="checkbox" name="front" id="">
+                    <label for="front">Additionals Course</label> <br>
+                </div><br>
+
+                <div class="com">
+                    <label for="txt">Any comments or Suggestions?</label><br>
+                    <textarea name="txt" id="" cols="30" rows="6" placeholder="Enter your comments here"></textarea> <br>
+                    <button type="submit">submit</button>
+                </div>
+            </form>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
